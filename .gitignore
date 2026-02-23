@@ -1,0 +1,37 @@
+# Ignore CMake build directories and files
+build/
+*/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+Makefile.cmake
+*.cmake
+
+# Ignore compiled objects and binaries
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Project-specific binaries
+tv_lab
+cat
+library
+
+# IDEs and OS
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and temp
+*.log
+*.tmp
+
+# Generated dependency files
+*.d
